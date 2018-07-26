@@ -18,7 +18,7 @@ import javax.persistence.*;
     "id",
     "description"
 })
-@Entity
+@Entity()
 public class Permission {
 
     @Id
